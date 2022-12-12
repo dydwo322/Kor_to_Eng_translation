@@ -1,4 +1,4 @@
-# 딥러닝을 이용한 한글-영분 번역기<br>(RNN model : Seq2seq with attention)
+# 딥러닝을 이용한 한글-영문 번역기<br>(RNN model : Seq2seq with attention)
 <br>
 
 ## 0. 목차
