@@ -194,4 +194,10 @@ Transformer
 - Transformer를 이용하여 한글-영문을 번역기 구축이 더 결과가 좋았다.
 
 <멤버>
+<img width=300 height=300px src="https://user-images.githubusercontent.com/79880476/203930539-4c441ba5-d2f6-493b-b781-235b68efd7f2.jpg">
+- 김용재(조장) : 
+- 국승용 : 
+- 황성연 : 
+- 박혜정 :
+- 한민재 : 
 
