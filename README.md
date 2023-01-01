@@ -29,7 +29,11 @@
         <tr align=center>
             <td>5</td>
             <td><a href="#5">결론 및 한계점</a></td>
-        </tr>              
+        </tr>
+        <tr align=center>
+            <td>6</td>
+            <td><a href="#6">멤버 및 역할</a></td>
+        </tr>
      </tbody>
 </table>
 <br>
@@ -193,8 +197,11 @@ Transformer
 - 사람에 의한 평가 및 BLEU score를 통해 선택된 LSTM depth1 with Attention은 나쁘지 않으나 충분히 만족스러운 결과 획득 X  
 - Transformer를 이용하여 한글-영문을 번역기 구축이 더 결과가 좋았다.
 
-<멤버>
+## 6.<a name="6">멤버 및 역할</a>
+
+
 <img width=300 height=300px src="https://user-images.githubusercontent.com/79880476/203930539-4c441ba5-d2f6-493b-b781-235b68efd7f2.jpg">
+
 - 김용재(조장) : 
 - 국승용 : 
 - 황성연 : 
