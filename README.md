@@ -177,4 +177,4 @@ Transformer
 <결론>  
 - 다양한 데이터 및 모델 핸들링 시도  
 - 사람에 의한 평가 및 BLEU score를 통해 선택된 LSTM depth1 with Attention은 나쁘지 않으나 충분히 만족스러운 결과 획득 X  
-- Transformer를 이용하여 한글-영문을 번역기 구축
+- Transformer를 이용하여 한글-영문을 번역기 구축이 더 결과가 좋았다.
