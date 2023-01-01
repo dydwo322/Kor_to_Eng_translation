@@ -202,9 +202,9 @@ Transformer
 
 <img width=300 height=300px src="https://user-images.githubusercontent.com/79880476/203930539-4c441ba5-d2f6-493b-b781-235b68efd7f2.jpg">
 
-- 김용재(조장) : 
-- 국승용 : 
-- 황성연 : 
-- 박혜정 :
-- 한민재 : 
+- 김용재(조장) : LSTM 모델핸들링, 발표
+- 국승용 : 데이터전처리 & LSTM ATTENTION 모델핸들링, PPT
+- 황성연 : 데이터전처리 & BI LSTM 모델핸들링
+- 박혜정 : 데이터전처리 & LSTM 모델핸들링
+- 한민재 : Transformer 모델 핸들링
 
