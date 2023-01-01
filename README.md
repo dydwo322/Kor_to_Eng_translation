@@ -12,29 +12,43 @@
     <tbody>
         <tr align=center>
             <td>1</td>
-            <td><a href="#1">요 약</a></td>
+            <td><a href="#1">프로젝트 목적</a></td>
         </tr>
         <tr align=center>
             <td>2</td>
-            <td><a href="#2">성능개선을 위한 노력</a></td>
+            <td><a href="#2">요 약</a></td>
         </tr>
         <tr align=center>
             <td>3</td>
-            <td><a href="#3">결 과</a></td>
+            <td><a href="#3">성능개선을 위한 노력</a></td>
         </tr>
         <tr align=center>
             <td>4</td>
-            <td><a href="#4">결론 및 한계점</a></td>
+            <td><a href="#4">결 과</a></td>
+        </tr>
+        <tr align=center>
+            <td>5</td>
+            <td><a href="#5">결론 및 한계점</a></td>
         </tr>              
      </tbody>
 </table>
 <br>
 
-## 1.<a name="1">요 약</a>
+
+## 1.<a name="1">프로젝트 목적</a>
+```python
+1. 협업 및 의사소통 능력 향상
+2. RNN 모델의 이해
+3. 한글-영어 번역기 원리 이해
+4. 자연어처리 모델 하이퍼 파라미터 조절에 따른 성능 변화 확인
+```
+
+
+## 2.<a name="2">요 약</a>
 
 ![스크린샷_20221210_044906](https://user-images.githubusercontent.com/113493695/206839388-0b94509a-f754-4655-bbb4-169de9b50b5c.png)
 
-### - 모델 핸들
+### - 모델 핸들링
 ○ LSTM & GRU (+ ATTENTION, BI LSTM)<br> 
 <br>
 ○ PARAMS (hidden units, dropout, embedding dim)<br> 
@@ -59,7 +73,7 @@
 ○ 불용어 사전<br> 
 <br> 
 
-## 2.<a name="2">성능개선을 위한 노력</a>
+## 3.<a name="3">성능개선을 위한 노력</a>
 
 ![스크린샷_20221210_045726](https://user-images.githubusercontent.com/113493695/206839849-8b898050-c619-4c1b-a5d5-22040943248f.png)
 
@@ -137,7 +151,7 @@
    ![스크린샷_20221210_052304](https://user-images.githubusercontent.com/113493695/206840967-a90f714c-b8a6-4d88-a10f-0e1d92574423.png)  
    로 미흡한 수준의 번역 결과, 이전과 동일한 결과 지속 (오역, 같은 단어 반복)
 
-## 3.<a name="3">결 과</a>
+## 4.<a name="4">결 과</a>
 ### 평가지표 : Val_ACC
 
 ![스크린샷_20221210_052516](https://user-images.githubusercontent.com/113493695/206841018-27c0c6d4-cfe7-4846-945b-86d2c0dd9fc8.png)  
@@ -166,7 +180,7 @@ Transformer
 - ㆍTransformer을 이용해 학습한 모델로 사람에 의한 평가 확인  
 -  사람에 의한 평가를 기준으로 최종 모델 선정 (Transformer model)
 
-## 4.<a name="4">결론 및 한계점</a>
+## 5.<a name="5">결론 및 한계점</a>
 
 <한계점>  
 - layer가 깊어짐에 따라 val acc는 증가하였으나, 결과값 및 예측값에서 특정 단어가 반복되어 나오는 현상 조치  
